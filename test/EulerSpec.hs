@@ -20,6 +20,10 @@ import Euler.Problem014
 import Euler.Problem015
 import Euler.Problem016
 import Euler.Problem018
+import Euler.Problem019
+import Euler.Problem020
+import Euler.Problem021
+import Euler.Problem023
 import Euler.Problem060
 import Euler.Problem062
 
@@ -278,3 +282,28 @@ spec = do
         euler18 [[3],[7,4],[2,4,6], [8,5,9,3], [9,1,1,1,1]] `shouldBe` 29
     it "returns solution" $
         euler18 problem18triangle `shouldBe` 1074
+
+  describe "euler19" $ do
+    it "returns example" $
+        euler19 `shouldBe` 171
+
+  describe "euler20" $ do
+    it "returns example" $
+        euler20 10 `shouldBe` 27
+    it "returns solution" $
+        euler20 100 `shouldBe` 648
+
+  describe "euler21" $ do
+    describe "d" $ do
+        it "returns example" $
+            d 220 `shouldBe` 284
+        it "returns example" $
+            d 284 `shouldBe` 220
+    it "returns solution" $
+        euler21 10000 `shouldBe` 31626
+    
+
+  describe "euler23" $ do
+    xit "returns solution" $
+        euler23 28123 `shouldBe` 123
+    

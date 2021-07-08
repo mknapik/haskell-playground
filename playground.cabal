@@ -43,6 +43,10 @@ library
       Euler.Problem015
       Euler.Problem016
       Euler.Problem018
+      Euler.Problem019
+      Euler.Problem020
+      Euler.Problem021
+      Euler.Problem023
       Euler.Problem060
       Euler.Problem062
       Fibonacci
