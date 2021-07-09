@@ -24,6 +24,7 @@ import Euler.Problem019
 import Euler.Problem020
 import Euler.Problem021
 import Euler.Problem023
+import Euler.Problem024
 import Euler.Problem060
 import Euler.Problem062
 
@@ -302,8 +303,17 @@ spec = do
     it "returns solution" $
         euler21 10000 `shouldBe` 31626
     
-
   describe "euler23" $ do
     xit "returns solution" $
         euler23 28123 `shouldBe` 123
+    
+  describe "euler24" $ do
+    it "returns example" $
+        euler24 [0..2] `shouldBe` ["012", "021", "102", "120", "201", "210"]
+    it "returns example" $
+        euler24 [0..3] `shouldBe` euler24' [0..3]
+    xit "returns solution" $
+        (euler24' [0..9] !! (1000000-1)) `shouldBe` "2783915460"
+    it "returns solution" $
+        (euler24 [0..9] !! (1000000-1)) `shouldBe` "2783915460"
     
