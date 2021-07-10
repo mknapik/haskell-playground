@@ -1,6 +1,8 @@
 -- file EulerSpec.hs
 module EulerSpec where
 
+import Debug.Trace
+
 import Test.Hspec
 import Fibonacci
 import Euler.Problem001
@@ -26,6 +28,8 @@ import Euler.Problem021
 import Euler.Problem023
 import Euler.Problem024
 import Euler.Problem025
+import Euler.Problem026
+import Euler.Problem028
 import Euler.Problem060
 import Euler.Problem062
 
@@ -216,7 +220,7 @@ spec = do
         euler07 6 `shouldBe` 13
     it "returns solution" $
         euler07 10001 `shouldBe` 104743
-  
+
   describe "euler08" $ do
     it "returns example" $
         euler08 problem8number 4 `shouldBe` 5832
@@ -276,7 +280,7 @@ spec = do
         euler16 15 `shouldBe` 26
     it "returns solution" $
         euler16 1000 `shouldBe` 1366
-  
+
   describe "euler18" $ do
     it "returns example" $
         euler18 [[3],[7,4],[2,4,6],[8,5,9,3]] `shouldBe` 23
@@ -303,11 +307,11 @@ spec = do
             d 284 `shouldBe` 220
     it "returns solution" $
         euler21 10000 `shouldBe` 31626
-    
+
   describe "euler23" $ do
     xit "returns solution" $
         euler23 28123 `shouldBe` 123
-    
+
   describe "euler24" $ do
     it "returns example" $
         euler24 [0..2] `shouldBe` ["012", "021", "102", "120", "201", "210"]
@@ -322,4 +326,16 @@ spec = do
     it "returns example" $
         euler25 3 `shouldBe` [12]
     it "returns solution" $
-        euler25 1000 `shouldBe` [1477]
+        euler25 1000 `shouldBe` [4782]
+
+  describe "euler26" $ do
+    it "returns example" $
+        euler26 10 `shouldBe` (7,6)
+    it "returns solution" $
+        euler26 999 `shouldBe` (983,982)
+
+  describe "euler28" $ do
+    it "returns example" $
+        euler28 5 `shouldBe` 101
+    it "returns solution" $
+        euler28 1001 `shouldBe` 669171001

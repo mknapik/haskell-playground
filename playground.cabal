@@ -49,6 +49,8 @@ library
       Euler.Problem023
       Euler.Problem024
       Euler.Problem025
+      Euler.Problem026
+      Euler.Problem028
       Euler.Problem060
       Euler.Problem062
       Fibonacci
