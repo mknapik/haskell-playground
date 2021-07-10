@@ -51,6 +51,8 @@ library
       Euler.Problem025
       Euler.Problem026
       Euler.Problem028
+      Euler.Problem048
+      Euler.Problem049
       Euler.Problem050
       Euler.Problem060
       Euler.Problem062
