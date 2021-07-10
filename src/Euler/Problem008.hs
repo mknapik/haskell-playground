@@ -1,5 +1,4 @@
-module Euler.Problem008
-where
+module Euler.Problem008 where
 
 import Data.Char (digitToInt)
 

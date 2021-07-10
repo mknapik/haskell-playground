@@ -1,5 +1,4 @@
-module Euler.Problem006
-where
+module Euler.Problem006 where
 
 euler06 :: Int -> Int
 euler06 n = a - b

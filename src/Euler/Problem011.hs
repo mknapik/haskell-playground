@@ -1,5 +1,4 @@
-module Euler.Problem011
-where
+module Euler.Problem011 where
 
 import Data.List (transpose)
 

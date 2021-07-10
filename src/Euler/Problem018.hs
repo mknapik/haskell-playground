@@ -1,5 +1,4 @@
-module Euler.Problem018
-where
+module Euler.Problem018 where
 
 euler18 :: [[Int]] -> Int
 euler18 rows = head $ foldr1 g rows

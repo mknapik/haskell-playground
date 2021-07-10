@@ -1,5 +1,4 @@
-module Euler.Problem003
-where
+module Euler.Problem003 where
 
 euler03 :: Int -> [Int]
 euler03 n = euler03' n 2

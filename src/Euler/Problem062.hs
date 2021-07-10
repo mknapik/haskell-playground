@@ -1,6 +1,5 @@
-module Euler.Problem062 (euler62)
-where
-  
+module Euler.Problem062 (euler62) where
+
 import Data.List
 import Data.Numbers.Primes
 
@@ -25,4 +24,3 @@ euler62 =
       cubes
   where
     cubes = [n * n * n | n <- [3 ..]]
-

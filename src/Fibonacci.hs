@@ -1,5 +1,4 @@
-module Fibonacci (fibs)
-where
+module Fibonacci (fibs) where
 
 fibs :: Int -> [Int]
 fibs 1 = [1]

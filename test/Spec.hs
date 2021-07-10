@@ -1,7 +1,7 @@
 module Main where
 
-import Test.Hspec
 import EulerSpec
+import Test.Hspec
 
 main :: IO ()
 main = hspec EulerSpec.spec

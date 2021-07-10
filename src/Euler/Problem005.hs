@@ -1,8 +1,7 @@
-module Euler.Problem005
-where
+module Euler.Problem005 where
 
-import Data.Numbers.Primes (primeFactors)
 import Data.List
+import Data.Numbers.Primes (primeFactors)
 
 euler05 :: Int -> Int
 euler05 n = product $ helper n []

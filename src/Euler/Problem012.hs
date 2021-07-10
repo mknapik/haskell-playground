@@ -1,8 +1,7 @@
-module Euler.Problem012
-where
+module Euler.Problem012 where
 
+import Data.List (group, length)
 import Data.Numbers.Primes (primeFactors)
-import Data.List (length, group)
 
 euler12 stop = euler12' 1 0
   where

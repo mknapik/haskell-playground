@@ -1,5 +1,4 @@
-module Euler.Problem001 (euler01)
-where
+module Euler.Problem001 (euler01) where
 
 import qualified Data.Set as Set
 

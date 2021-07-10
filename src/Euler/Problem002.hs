@@ -1,5 +1,4 @@
-module Euler.Problem002
-where
+module Euler.Problem002 where
 
 import Fibonacci (fibs)
 

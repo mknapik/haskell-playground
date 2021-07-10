@@ -1,5 +1,4 @@
-module Euler.Problem004 (euler04)
-where
+module Euler.Problem004 (euler04) where
 
 digs :: Int -> [Int]
 digs 0 = []

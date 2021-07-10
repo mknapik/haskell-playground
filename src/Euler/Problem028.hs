@@ -22,6 +22,6 @@ import Data.Ord (comparing)
 
 euler28 :: Int -> Int
 euler28 diag = sum [test d | d <- [1, 3 .. diag]]
-    where
-        test 1 = 1
-        test diag = 4 * diag ^ 2 - 6 * (diag - 1)
+  where
+    test 1 = 1
+    test diag = 4 * diag ^ 2 - 6 * (diag - 1)

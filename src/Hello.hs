@@ -1,16 +1,16 @@
-module Hello (
-    hello
-)
+module Hello
+  ( hello,
+  )
 where
 
-import Data.Char
 import Control.Monad
+import Data.Char
 
 hello = do
-    line <- getLine
-    when (not . null $ line) $ do
-        putStrLn (reverseWords line)
-        hello
+  line <- getLine
+  when (not . null $ line) $ do
+    putStrLn (reverseWords line)
+    hello
 
 reverseWords :: String -> String
 reverseWords = unwords . map reverse . words
