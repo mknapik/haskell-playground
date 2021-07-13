@@ -1,9 +1,9 @@
 module Euler.Problem027 (euler27) where
 
 import Data.List
-import Data.Set (fromList, member)
 import Data.Numbers.Primes (isPrime, primes)
 import Data.Ord (comparing)
+import Data.Set (fromList, member)
 
 euler27 :: Integer -> [(Integer, Integer, Int)]
 euler27 m =
