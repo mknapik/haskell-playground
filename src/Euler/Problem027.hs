@@ -10,8 +10,7 @@ euler27 m =
   (: []) $
     maximumBy
       (comparing (\(a, b, p) -> p))
-      [ (a, b, primes) | a <- [(- m + 1) .. (m -1)], b <- bs, let primes = length $ takeWhile (isPrime . abs) (map (formula a b) [0 ..])
-      -- [ (a, b, primes) | a <- [(- m + 1) .. (m -1)], b <- bs, let primes = length $ takeWhile (`member` p) (map (formula a b) [0 ..])
+      [ (a, b, primes) | a <- [(- m + 1) .. (m -1)], b <- bs, let primes = length $ takeWhile (`member` p) (map (formula a b) [0 ..])
       ]
   where
     bs = takeWhile (<= m) primes
