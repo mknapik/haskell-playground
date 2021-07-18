@@ -386,7 +386,7 @@ spec = do
 
   describe "euler33" $ do
     it "returns solution" $
-      euler33 `shouldBe` [(1, 100)]
+      euler33 `shouldBe` 100
 
   describe "euler36" $ do
     it "returns solution" $
