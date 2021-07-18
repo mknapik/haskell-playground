@@ -380,8 +380,8 @@ spec = do
       euler31 200 `shouldBe` 73682
 
   describe "euler32" $ do
-    it "returns example" $
-      euler32 7254 `shouldBe` [[39, 186, 7254]]
+    it "returns solution" $
+      euler32 [1..9] `shouldBe` [45228]
 
   describe "euler36" $ do
     it "returns solution" $
