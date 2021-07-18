@@ -5,7 +5,6 @@ import Data.Char (digitToInt)
 import Data.List
 import Data.Numbers.Primes
 import Data.Set (fromList, member)
-import Debug.Trace
 
 euler32 xs = ((: []) . sum . nub . sort . concatMap permsMulti) groups
   where

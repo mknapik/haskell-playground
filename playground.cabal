@@ -60,6 +60,9 @@ library
       Euler.Problem034
       Euler.Problem035
       Euler.Problem036
+      Euler.Problem037
+      Euler.Problem038
+      Euler.Problem041
       Euler.Problem047
       Euler.Problem048
       Euler.Problem049
@@ -68,6 +71,7 @@ library
       Euler.Problem062
       Fibonacci
       Hello
+      Helper
       Lib
   other-modules:
       Paths_playground

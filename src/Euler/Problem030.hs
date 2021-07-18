@@ -2,7 +2,6 @@ module Euler.Problem030 (euler30) where
 
 import Data.Char (digitToInt)
 import Data.Set (fromList, size)
-import Debug.Trace
 
 euler30 :: Int -> [Int]
 euler30 k = [i | i <- [2 .. upperlimit], sumOfDigitPowers i == i]
