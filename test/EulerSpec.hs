@@ -33,6 +33,7 @@ import Euler.Problem029
 import Euler.Problem030
 import Euler.Problem031
 import Euler.Problem032
+import Euler.Problem033
 import Euler.Problem036
 import Euler.Problem047
 import Euler.Problem048
@@ -381,7 +382,11 @@ spec = do
 
   describe "euler32" $ do
     it "returns solution" $
-      euler32 [1..9] `shouldBe` [45228]
+      euler32 [1 .. 9] `shouldBe` [45228]
+
+  describe "euler33" $ do
+    it "returns solution" $
+      euler33 `shouldBe` [(1, 100)]
 
   describe "euler36" $ do
     it "returns solution" $
