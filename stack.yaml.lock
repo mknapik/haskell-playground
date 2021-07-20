@@ -3,10 +3,31 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
 snapshots:
-- completed:
-    size: 524104
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/14/5.yaml
+- original: lts-14.5
+  completed:
     sha256: 3c146eebc1b383211ea49d5422fb3d63d699da12307b4bc989107300eb579d60
-  original: lts-14.5
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/14/5.yaml
+    size: 524104
+packages:
+- original:
+    hackage: hspec-2.8.2@sha256:27523f8fb7b84729d7c8160c1db991fc2afac52b1bc4e99f0e239a1321031079,1709
+  completed:
+    pantry-tree:
+      sha256: e37f1f99590b1d65138465dcc43f4a6f855f287e7f8bb54a1f291725628b5226
+      size: 583
+    hackage: hspec-2.8.2@sha256:27523f8fb7b84729d7c8160c1db991fc2afac52b1bc4e99f0e239a1321031079,1709
+- original:
+    hackage: hspec-core-2.8.2@sha256:251d8d96d06078ee41c4350c707fbdb9235cbcac3d89ea4a4075f1715d7c3a8f,4955
+  completed:
+    pantry-tree:
+      sha256: 57a576d46374eb749a15163ef5c1712b62a450d422585eaccc52f83350495a94
+      size: 4312
+    hackage: hspec-core-2.8.2@sha256:251d8d96d06078ee41c4350c707fbdb9235cbcac3d89ea4a4075f1715d7c3a8f,4955
+- original:
+    hackage: hspec-discover-2.8.2@sha256:e7d9f95303e3763114aa36b7f115bfa131ba490d8018c6468089b502dd208ec8,2183
+  completed:
+    pantry-tree:
+      sha256: 6ea21cb4cd273e588da442c669e1bda43a554fe7e866d35a5fbf12307a978dc4
+      size: 1131
+    hackage: hspec-discover-2.8.2@sha256:e7d9f95303e3763114aa36b7f115bfa131ba490d8018c6468089b502dd208ec8,2183

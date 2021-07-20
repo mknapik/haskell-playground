@@ -34,5 +34,5 @@ tests:
     source-dirs:         test
     dependencies:
     - playground
-    - hspec
-    - hspec-contrib
+    - hspec >= 2.8.2
+    - hspec-contrib >= 0.5.1
