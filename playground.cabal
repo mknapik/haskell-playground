@@ -65,6 +65,8 @@ library
       Euler.Problem039
       Euler.Problem040
       Euler.Problem041
+      Euler.Problem043
+      Euler.Problem044
       Euler.Problem047
       Euler.Problem048
       Euler.Problem049
@@ -80,7 +82,8 @@ library
   hs-source-dirs:
       src
   build-depends:
-      base >=4.7 && <5
+      arithmoi
+    , base >=4.7 && <5
     , containers
     , flow
     , primes
@@ -95,7 +98,8 @@ test-suite playground-test
   hs-source-dirs:
       test
   build-depends:
-      base >=4.7 && <5
+      arithmoi
+    , base >=4.7 && <5
     , containers
     , flow
     , hspec >=2.8.2

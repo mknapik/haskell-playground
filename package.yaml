@@ -24,6 +24,7 @@ dependencies:
 - flow
 - primes
 - containers
+- arithmoi
 
 library:
   source-dirs: src
