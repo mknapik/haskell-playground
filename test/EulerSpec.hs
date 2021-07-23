@@ -44,6 +44,8 @@ import Euler.Problem040
 import Euler.Problem041
 import Euler.Problem043
 import Euler.Problem044
+import Euler.Problem045
+import Euler.Problem046
 import Euler.Problem047
 import Euler.Problem048
 import Euler.Problem049
@@ -444,6 +446,14 @@ spec = do
   describe "euler44" $ do
     it "returns solution" $
       euler44 `shouldBe` [(7042750, 1560090)]
+
+  describe "euler45" $ do
+    it "returns solution" $
+      euler45 `shouldBe` [40755, 1533776805]
+
+  describe "euler46" $ do
+    it "returns solution" $
+      euler46 `shouldBe` [5777]
 
   describe "euler47" $ do
     it "returns example" $
