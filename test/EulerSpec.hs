@@ -42,6 +42,7 @@ import Euler.Problem038
 import Euler.Problem039
 import Euler.Problem040
 import Euler.Problem041
+import Euler.Problem042
 import Euler.Problem043
 import Euler.Problem044
 import Euler.Problem045
@@ -438,6 +439,13 @@ spec = do
   describe "euler41" $ do
     it "returns solution" $
       euler41 `shouldBe` [7652413]
+
+  describe "euler42" $ do
+    it "returns example" $ do
+      euler42 "SKY" `shouldBe` [1]
+    it "returns solution" $ do
+      words <- readFile "words.txt"
+      euler42 words `shouldBe` [162]
 
   describe "euler43" $ do
     xit "returns solution" $

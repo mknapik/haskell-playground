@@ -25,6 +25,7 @@ dependencies:
 - primes
 - containers
 - arithmoi
+- text
 
 library:
   source-dirs: src
