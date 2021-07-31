@@ -23,6 +23,7 @@ import Euler.Problem018
 import Euler.Problem019
 import Euler.Problem020
 import Euler.Problem021
+import Euler.Problem022
 import Euler.Problem023
 import Euler.Problem024
 import Euler.Problem025
@@ -335,6 +336,11 @@ spec = do
         d 284 `shouldBe` 220
     it "returns solution" $
       euler21 10000 `shouldBe` 31626
+
+  describe "euler22" $ do
+    it "returns solution" $ do
+      names <- readFile "names.txt"
+      euler22 names `shouldBe` [871198282]
 
   describe "euler23" $ do
     xit "returns solution" $
