@@ -53,6 +53,8 @@ import Euler.Problem047
 import Euler.Problem048
 import Euler.Problem049
 import Euler.Problem050
+import Euler.Problem051
+import Euler.Problem052
 import Euler.Problem060
 import Euler.Problem062
 import Fibonacci
@@ -501,3 +503,7 @@ spec = do
       euler50 1000 `shouldBe` [(953, 21)]
     xit "returns solution" $
       euler50 1000000 `shouldBe` [(997651, 543)]
+
+  describe "euler52" $ do
+    it "returns solution" $
+      euler52 `shouldBe` [142857]
