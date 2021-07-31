@@ -19,6 +19,7 @@ import Euler.Problem013
 import Euler.Problem014
 import Euler.Problem015
 import Euler.Problem016
+import Euler.Problem017
 import Euler.Problem018
 import Euler.Problem019
 import Euler.Problem020
@@ -309,6 +310,14 @@ spec = do
       euler16 15 `shouldBe` 26
     it "returns solution" $
       euler16 1000 `shouldBe` 1366
+
+  describe "euler17" $ do
+    it "returns example" $
+      euler17 [342, 115] `shouldBe` [43]
+    it "returns example" $
+      euler17 [1, 19, 20, 23, 99, 132, 200, 899, 1000] `shouldBe` [106]
+    it "returns solution" $
+      euler17 [1 .. 1000] `shouldBe` [21124]
 
   describe "euler18" $ do
     it "returns example" $
