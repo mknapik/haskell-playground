@@ -2,9 +2,8 @@ module Euler.Problem060 where
 
 import Data.Numbers.Primes
 
-euler60 :: Int
 euler60 =
-  (sum . head)
+  (map sum . take 1)
     [ [a, b, c, d, e]
       | a <- primes,
         b <- takeWhile (< a) primes,
@@ -18,10 +17,11 @@ euler60 =
     ]
   where
     pairConcatPrimes a bs =
-      all isPrime $
-        map read $
-          concatMap
+      all
+        (isPrime . read)
+        ( concatMap
             ((\b -> [a' ++ b, b ++ a']) . show)
             bs
+        )
       where
         a' = show a

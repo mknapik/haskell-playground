@@ -544,3 +544,7 @@ spec = do
     xit "returns solution" $ do
       cipher <- readFile "p059_cipher.txt"
       euler59 cipher `shouldBe` [129448]
+
+  describe "euler60" $ do
+    xit "returns solution" $
+      euler60 `shouldBe` [26033]
