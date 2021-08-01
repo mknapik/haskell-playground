@@ -60,6 +60,7 @@ import Euler.Problem055
 import Euler.Problem056
 import Euler.Problem057
 import Euler.Problem058
+import Euler.Problem059
 import Euler.Problem060
 import Euler.Problem062
 import Fibonacci
@@ -538,3 +539,8 @@ spec = do
   describe "euler58" $ do
     xit "returns solution" $
       euler58 `shouldBe` [26241]
+
+  describe "euler59" $ do
+    xit "returns solution" $ do
+      cipher <- readFile "p059_cipher.txt"
+      euler59 cipher `shouldBe` [129448]
