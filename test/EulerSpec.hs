@@ -1,7 +1,7 @@
 -- file EulerSpec.hs
 module EulerSpec where
 
-import qualified Data.Map as Map
+import qualified Data.Map.Strict as M
 import Debug.Trace
 import Euler.Problem001
 import Euler.Problem002
@@ -62,6 +62,7 @@ import Euler.Problem057
 import Euler.Problem058
 import Euler.Problem059
 import Euler.Problem060
+import Euler.Problem061
 import Euler.Problem062
 import Fibonacci
 import Test.Hspec
@@ -548,3 +549,8 @@ spec = do
   describe "euler60" $ do
     xit "returns solution" $
       euler60 `shouldBe` [26033]
+
+  describe "euler61" $ do
+    it "returns solution" $
+      -- euler61 `shouldBe` M.empty
+      euler61 `shouldBe` []

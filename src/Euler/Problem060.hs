@@ -1,4 +1,4 @@
-module Euler.Problem060 where
+module Euler.Problem060 (euler60) where
 
 import Data.Numbers.Primes
 
